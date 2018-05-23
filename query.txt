@@ -1,0 +1,1 @@
+$sql = "SELECT autor1.Nameautor,count(book1.Namebook) from autor1 inner join book1 on autor1.ID=book1.Nautor group by autor1.Nameautor having count(book1.Namebook)<7";
